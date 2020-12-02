@@ -29,29 +29,30 @@
   opacity: 0.4;
 }
 
-/* USER DESCRIPTION */
+/* AUTHOR DESCRIPTION */
 
-.user-wrapper {
+.author-wrapper {
   position: absolute;
   top: 180px;
   display: flex;
   width: 900px;
 }
 
-.user-image-wrapper {
+.author-image-wrapper {
   background: #042a3666 url("./img/dmitriy.png") no-repeat center;
   background-size: cover;
+  box-sizing: border-box;
   width: 250px;
   height: 250px;
   border: solid 4px #d7d7d7fc;
   border-radius: 50%;
 }
 
-.user-description-wrapper {
+.author-description-wrapper {
   padding-left: 20px;
 }
 
-.user-name {
+.author-name {
   font-size: 4rem;
   text-transform: uppercase;
   line-height: 1.1;
@@ -59,12 +60,12 @@
   margin-bottom: 20px;
 }
 
-.user-skills {
+.author-skills {
   font-size: 1.8rem;
   color: #d7d7d7fc;
   margin: 0;
 }
 
-.user-skills span {
+.author-skills span {
   color: #fcad1a;
 }

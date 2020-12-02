@@ -1,15 +1,16 @@
 import './App.css';
+// import author from './img/dmitriy.png';
 
 function App() {
   return (
     <div className="background-image">
-    <div className="user-wrapper">
-    <div className="user-image-wrapper">
-      {/* <img className="user-image" src="./img/dmitriy.png" alt="Harovinkin Dmitriy" height="200"/> */}
+    <div className="author-wrapper">
+    <div className="author-image-wrapper">
+      {/* <img className="user-image" src={author} alt="Harovinkin Dmitriy" height="250"/> */}
     </div>
-      <div className="user-description-wrapper">
-      <h2 className="user-name">harovinkin<br/>dmitriy</h2>
-      <p className="user-skills"><span>Junior Frontend Developer</span> | HTML, CSS, JS <br/>
+      <div className="author-description-wrapper">
+      <h2 className="author-name">harovinkin<br/>dmitriy</h2>
+      <p className="author-skills"><span>Junior Frontend Developer</span> | HTML, CSS, JS <br/>
       React, Redux, Hooks</p>
       </div>
     </div>
